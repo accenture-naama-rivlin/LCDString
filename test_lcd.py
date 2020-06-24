@@ -23,6 +23,9 @@ class TestLcdStringGenerator(unittest.TestCase):
     def test_four_returns_representation(self):
         self.assertEqual("...\n|_|\n..|", self.generator.generate(4))
 
+    def test_five_returns_representation(self):
+        self.assertEqual("._.\n|_.\n._|", self.generator.generate(5))
+
 import unittest
 
 if __name__ == "__main__":
