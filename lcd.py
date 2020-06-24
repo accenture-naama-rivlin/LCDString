@@ -7,7 +7,8 @@ class LcdStringGenerator:
             0: "._.\n|.|\n|_|",
             1: "...\n..|\n..|",
             2: "._.\n._|\n|_.",
-            3: "._.\n._|\n._|"
+            3: "._.\n._|\n._|",
+            4: "...\n|_|\n..|"
         }
 
         for k, v in number_to_representation.items():
