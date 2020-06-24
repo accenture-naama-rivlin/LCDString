@@ -8,4 +8,4 @@ pipe characters for each digit. Each digit is shown below
 
 Example: 910
 
-![image](https://github.com/accenture-naama-rivlin/LCDString/blob/master/Screen%20Shot%202020-06-24%20at%2010.40.09%20AM.png?raw=true)
+![image](https://github.com/accenture-naama-rivlin/LCDString/blob/master/Screen%20Shot%202020-06-24%20at%201.14.49%20PM.png?raw=true)
