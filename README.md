@@ -3,10 +3,9 @@ integer value using a 3x3 grid of space, underscore, and
 pipe characters for each digit. Each digit is shown below
 (using a dot instead of a space)
 
-![Screenshot](/Users/naama.rivlin/PycharmProjects/LCD/Screen Shot 2020-06-24 at 10.39.58 AM.png)
 
 ![image](https://github.com/accenture-naama-rivlin/LCDString/blob/master/Screen%20Shot%202020-06-24%20at%2010.39.58%20AM.png?raw=true)
+
 Example: 910
 
-![Screenshot](/Users/naama.rivlin/PycharmProjects/LCD/Screen Shot 2020-06-24 at 10.40.09 AM.png)
 ![image](https://github.com/accenture-naama-rivlin/LCDString/blob/master/Screen%20Shot%202020-06-24%20at%2010.40.09%20AM.png?raw=true)
