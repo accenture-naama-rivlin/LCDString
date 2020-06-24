@@ -5,7 +5,8 @@ pipe characters for each digit. Each digit is shown below
 
 ![Screenshot](/Users/naama.rivlin/PycharmProjects/LCD/Screen Shot 2020-06-24 at 10.39.58 AM.png)
 
-
+![image](Screen Shot 2020-06-24 at 10.39.58 AM.png)
 Example: 910
 
 ![Screenshot](/Users/naama.rivlin/PycharmProjects/LCD/Screen Shot 2020-06-24 at 10.40.09 AM.png)
+![image](Screen Shot 2020-06-24 at 10.40.09 AM.png)
