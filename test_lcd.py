@@ -1,6 +1,7 @@
 import lcd
 import unittest
 
+
 class TestLcdStringGenerator(unittest.TestCase):
 
     generator = lcd.LcdStringGenerator()
@@ -38,7 +39,9 @@ class TestLcdStringGenerator(unittest.TestCase):
     def test_ten_returns_representation(self):
         self.assertEqual("... ._. \n..| |.| \n..| |_| \n", self.generator.generate(10))
 
-import unittest
+    def test_one_thousand_two_hundred_thirty_four_returns_representation(self):
+        self.assertEqual("... ._. ._. ... \n..| ._| ._| |_| \n..| |_. ._| ..| \n", self.generator.generate(1234))
+
 
 if __name__ == "__main__":
     unittest.main()

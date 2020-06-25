@@ -18,17 +18,14 @@ class LcdStringGenerator:
         number_to_string = str(number)
 
         display =[]
-        for i in range(0, 3):
+        for index in range(0, 3):
             for digit in number_to_string:
-                display.append(number_to_representation[int(digit)][i] + " ")
+                display.append(number_to_representation[int(digit)][index] + " ")
             display.append("\n")
 
         display_return = ",".join(display)
         display_return = display_return.replace(",", "")
 
         return display_return
-
-
-test = LcdStringGenerator()
 
 
