@@ -1,24 +1,34 @@
 class LcdStringGenerator:
 
     def generate(self, number=None):
-        lcd_string = ""
         number_to_representation = {
-            None: "...\n...\n...",
-            0: "._.\n|.|\n|_|",
-            1: "...\n..|\n..|",
-            2: "._.\n._|\n|_.",
-            3: "._.\n._|\n._|",
-            4: "...\n|_|\n..|",
-            5: "._.\n|_.\n._|",
-            6: "._.\n|_.\n|_|",
-            7: "._.\n..|\n..|",
-            8: "._.\n|_|\n|_|",
-            9: "._.\n|_|\n..|"
+            None: ["...", "...", "..."],
+            0: ["._.", "|.|", "|_|"],
+            1: ["...", "..|", "..|"],
+            2: ["._.", "._|", "|_."],
+            3: ["._.", "._|", "._|"],
+            4: ["...", "|_|", "..|"],
+            5: ["._.", "|_.", "._|"],
+            6: ["._.", "|_.", "|_|"],
+            7: ["._.", "..|", "..|"],
+            8: ["._.", "|_|", "|_|"],
+            9: ["._.", "|_|", "..|"]
         }
 
-        for k, v in number_to_representation.items():
-            if number == k:
-                lcd_string += v
+        number_to_string = str(number)
 
-        return lcd_string
+        display =[]
+        for i in range(0, 3):
+            for digit in number_to_string:
+                display.append(number_to_representation[int(digit)][i] + " ")
+            display.append("\n")
+
+        display_return = ",".join(display)
+        display_return = display_return.replace(",", "")
+
+        return display_return
+
+
+test = LcdStringGenerator()
+
 
